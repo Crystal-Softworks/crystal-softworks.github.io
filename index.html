@@ -13,13 +13,13 @@
         body {
             font-family: 'Arial', sans-serif;
             color: #fff;
-            background-color: #000;
+            background-color: #1e1e1e; /* Slightly lighter black */
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
         header {
-            background-color: #1b1f3b;
+            background-color: #000; /* Dark black */
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -34,13 +34,12 @@
             margin: auto;
         }
         .mission {
-            text-align: center;
             margin-bottom: 50px;
+            text-align: left; /* Aligns text to the left */
         }
         .mission h2 {
             font-size: 2em;
             margin-bottom: 20px;
-            color: #1b1f3b;
         }
         .mission p {
             font-size: 1.2em;
@@ -52,14 +51,17 @@
         }
         .contact h2 {
             font-size: 1.8em;
-            color: #1b1f3b;
         }
         .contact p {
             font-size: 1.1em;
             margin: 10px 0;
         }
+        .contact a {
+            color: #fff; /* White text for the email link */
+            text-decoration: none;
+        }
         footer {
-            background-color: #1b1f3b;
+            background-color: #000; /* Dark black */
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -84,13 +86,13 @@
         <h2>Our Mission</h2>
         <p>At the Midtown Genre Intelligence Department (GID), we are committed to deep analysis and research.</p>
     </div>
-
-    <div class="contact">
-        <h2>Contact Us</h2>
-        <p>For inquiries, reach us at:</p>
-        <p><a href="mailto:support@midtown-gid.com" style="color: #fff;">support@midtown-gid.com</a></p>
-    </div>
 </section>
+
+<div class="contact">
+    <h2>Contact Us</h2>
+    <p>For inquiries, reach us at:</p>
+    <p><a href="mailto:support@midtown-gid.com">support@midtown-gid.com</a></p>
+</div>
 
 <footer>
     <p>&copy; 2024 Midtown Genre Intelligence Department. All Rights Reserved.</p>
