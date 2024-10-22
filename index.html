@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midtown Genre Intelligence Department</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: #1b1f3b;
@@ -20,10 +26,10 @@
         }
         header h1 {
             font-size: 2.5em;
-            margin: 0;
         }
         section {
             padding: 40px 20px;
+            flex-grow: 1;
             max-width: 1200px;
             margin: auto;
         }
@@ -57,6 +63,9 @@
             color: #fff;
             text-align: center;
             padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
         footer p {
             margin: 0;
@@ -73,13 +82,13 @@
 <section>
     <div class="mission">
         <h2>Our Mission</h2>
-        <p>At the Midtown Genre Intelligence Department (GID), we are committed to deep analysis and research.</p>
+        <p>At the Midtown Genre Intelligence Department (GID), we are committed to deep analysis, research, and categorization of all genres in media and entertainment. Our department ensures comprehensive understanding and classification of trends, sub-genres, and thematic elements to assist organizations and individuals in navigating the vast media landscape.</p>
     </div>
 
     <div class="contact">
         <h2>Contact Us</h2>
         <p>For inquiries, reach us at:</p>
-        <p><a href="mailto:support@midtown-gid.com">support@midtown-gid.com</a></p>
+        <p><a href="mailto:support@midtown-gid.com" style="color: #fff;">support@midtown-gid.com</a></p>
     </div>
 </section>
 
